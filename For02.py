@@ -6,9 +6,11 @@ def main(n):
     Returns:
         string: return  answer
     """
-    a=list(range(n))
-    for b in a:
-        x=''.join(str(b) for b in a)
+    x=''
+    for b in range(n):
+        x+=f'{b}'
+        
+        
     
     return x
         
