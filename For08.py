@@ -6,4 +6,10 @@ def main(N):
     Returns:
         float: return  answer
     """
-    return
+    calc=0
+    
+    for x in range(1,N+1):
+        calc+=(1/x)
+
+    return calc
+print(main(4))
