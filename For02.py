@@ -7,15 +7,15 @@ def main(n):
         string: return  answer
     """
     x=''
-    for b in range(n+1):
-        x+=f'{b}'
-        
+    for b in range(n-1):
+        x+=f'{b}'+','
+    y=x+str(n-1)
         
     
-    return x
+    return y
         
         
 
 
     
-print(main(8))
+print(main(3))
