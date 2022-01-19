@@ -6,4 +6,14 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    a=list(range(n))
+    for b in a:
+        x=''.join(str(b) for b in a)
+    
+    return x
+        
+        
+
+
+    
+print(main(8))
