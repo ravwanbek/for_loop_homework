@@ -7,7 +7,7 @@ def main(n):
         string: return  answer
     """
     x=''
-    for b in range(n):
+    for b in range(n+1):
         x+=f'{b}'
         
         
