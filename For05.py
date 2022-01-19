@@ -8,7 +8,8 @@ def main(A,B):
         list: return  answer
     """
     list=[]
-    for x in range(B,A+1):
+    for x in range(A,B+1):
         list.append(x)
-    return list
-print(main(10,4))
+    a=list[::-1]
+    return a
+print(main(4,10))
