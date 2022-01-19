@@ -6,4 +6,11 @@ def main(list1):
     Returns:
         list: return  answer
     """
-    return
+    list=[]
+    for x in list1:
+        list.append(x.capitalize())
+
+
+
+    return list
+print(main(['ali','vali','gani']))
